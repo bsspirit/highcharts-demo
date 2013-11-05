@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HighStock - Candlestick</title>
+    <script src="bower_components/highcharts.com/lib/jquery-1.10.1.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/highcharts.com/build/dist/highstock/js/highstock.js"></script>
+</head>
+<body>
+<div id="container" style="height: 500px"></div>
+<script src="js/candlestick.js"></script>
+<script>
+    createCandlestick('#container','json/candlestick.json');
+</script>
+</body>
+</html>
